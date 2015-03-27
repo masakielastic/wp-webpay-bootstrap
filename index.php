@@ -19,9 +19,9 @@ get_header();
     <div id="content" class="site-content" role="main">
       <article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-1">
         <div class="entry-content">
-          <form id="paymentForm" action="#" method="post">
+          <form id="chargeForm" action="#" method="post">
             <div>金額(円)</div>
-            <input type="text" id="inputAmount" placeholder="金額を入力">
+            <input type="text" id="chargeAmount" placeholder="金額を入力">
             <script
               src="https://checkout.webpay.jp/v2/"
               class="webpay-button"
@@ -29,7 +29,7 @@ get_header();
               data-lang="ja"
               data-partial="true"
             ></script>
-            <button type="submit" id ="paymentSubmit">支払う</button>
+            <button type="submit" id ="chargeSubmit">支払う</button>
           </form>
           <div id="alertMsg" style="display: none;"><p></p></div>
         </div>
