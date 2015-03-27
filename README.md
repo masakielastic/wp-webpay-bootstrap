@@ -10,3 +10,7 @@ include '/path/to/wp-blog-header.php';
 ```
 
 `index.twig` がすでにある場合、別の名前に変更するか削除します。
+
+## ライセンス
+
+GPL v2.0 とします。
